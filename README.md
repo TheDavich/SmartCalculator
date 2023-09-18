@@ -1,8 +1,37 @@
-This is the *Smart Calculator* project I made myself.
+# Calculator App 🧮
 
+## Description 📊
 
-<p>Calculators are a very helpful tool that we all use on a regular basis. Why not create one yourself, and make it really special? In this project, you will write a calculator that not only adds, subtracts, and multiplies, but is also smart enough to remember your previous calculations.</p><br/><br/>Learn more at <a href="https://hyperskill.org/projects/88?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card">https://hyperskill.org/projects/88</a>
+The Calculator App is a simple yet powerful command-line calculator that allows you to perform arithmetic calculations and manage variables. It supports addition, subtraction, multiplication, and division operations. Additionally, you can assign values to variables and use them in expressions.
 
-Here's the link to the project: https://hyperskill.org/projects/88
+## Features ✨
 
-Check out my profile: https://hyperskill.org/profile/294015602
+### Arithmetic Calculations 🧮
+
+Perform basic arithmetic calculations using `+`, `-`, `*`, and `/` operators. The calculator supports complex expressions, including parentheses for order of operations.
+
+### Variable Assignment 📝
+
+Declare and use variables in your calculations. Valid variable names consist of letters only. For example, you can declare a variable `a` with a value of `5` and then use it in expressions like `a * 10`.
+
+### Error Handling 🚫
+
+The calculator provides error messages for various scenarios, such as invalid expressions, unknown commands, and unknown variables. It ensures a smooth and informative user experience.
+
+### Help Command 🆘
+
+Type `/help` to display a helpful message explaining how to use the calculator. It provides tips on valid expressions and variable naming conventions.
+
+### Operator Simplification 🧹
+
+The calculator simplifies consecutive operators, such as `+++` becoming `+`, and handles odd numbers of minuses correctly, e.g., `2 -- 2` is interpreted as `2 - (-2)`, which equals `2 + 2`.
+
+## Usage 🚀
+
+1. Enter arithmetic expressions or commands.
+2. Use operators `+`, `-`, `*`, and `/` for calculations.
+3. Declare variables like `variableName = value`.
+4. Type `/help` for usage instructions.
+5. Type `/exit` to exit the calculator.
+
+## Enjoy calculating with ease! 🤓
